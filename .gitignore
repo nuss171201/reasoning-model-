@@ -1,0 +1,35 @@
+
+.venv/
+
+
+__pycache__/
+*.pyc
+
+
+.ipynb_checkpoints/
+
+# Model weights / checkpoints
+*.pth
+*.pt
+*.safetensors
+checkpoints/
+
+# Downloaded models/tokenizers
+qwen3/
+qwewn3/
+
+# Original book repository
+reasoning-from-scratch/
+
+# Logs
+logs/
+
+# Large downloaded datasets
+deepseek-r1-math-train.json
+math_train.json
+math500_test.json
+math500-mps.jsonl
+math500_base-mps-evaluate-script.jsonl
+
+# macOS
+.DS_Store
